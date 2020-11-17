@@ -32,9 +32,9 @@ Text Domain: devtheme
     width: 80%;
     margin: 0 auto;
 }
-/* .dev-article{
+.dev-article{
     padding: 20px 0;
-} */
+}
 footer{
     text-align: center;
     background: darkolivegreen;
