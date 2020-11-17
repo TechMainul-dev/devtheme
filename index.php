@@ -16,7 +16,7 @@
                 <img src="p09.jpg" alt="logo">
             </div>
             <div class="content">
-                <h1>Welcome to our zone</h1>
+                <h1><?php bloginfo('name') ; ?></h1>
                 <p>We are coming soon</p>
             </div>
         </div>
