@@ -35,6 +35,9 @@ Text Domain: devtheme
 .dev-article{
     padding: 20px 0;
 }
+.dev-article h2{
+    color: deeppink;
+}
 footer{
     text-align: center;
     background: darkolivegreen;
