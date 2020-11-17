@@ -4,7 +4,7 @@ Theme URI: https://github.com/TechMainul-dev/devtheme
 Author: Mainul Hasan Khan
 Author URI: fb.com/TechMainul
 Description: This is a dev theme depend on my first experience.
-Version: 1.0.0
+Version: 1.0.1
 Text Domain: devtheme
 */
 
@@ -27,4 +27,8 @@ Text Domain: devtheme
 }
 .content{
     color: rgb(192, 59, 10);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
 }
