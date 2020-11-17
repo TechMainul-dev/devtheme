@@ -16,8 +16,8 @@
                 <img src="p09.jpg" alt="logo">
             </div>
             <div class="content">
-                <h1><?php bloginfo('name') ; ?></h1>
-                <p>We are coming soon</p>
+                <h1><?php bloginfo('name'); ?></h1>
+                <p><?php bloginfo('description'); ?></p>
             </div>
         </div>
     </header>
