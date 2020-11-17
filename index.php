@@ -12,7 +12,7 @@
     <header class="header-area">
         <div class="header-content">
             <div class="logo">
-                <img src="p09.jpg" alt="logo">
+                <?php the_custom_logo(); ?>
             </div>
             <div class="content">
                 <h1><?php bloginfo('name'); ?></h1>

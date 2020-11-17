@@ -2,6 +2,7 @@
 function devtheme_setup() {
     load_theme_textdomain('devtheme');
     add_theme_support('title-tag');
+    add_theme_support('custom-logo');
 }
 
 add_action('after_setup_theme', 'devtheme_setup');
