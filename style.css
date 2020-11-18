@@ -39,3 +39,8 @@ footer{
     background: darkolivegreen;
     padding: 20px 0;
 }
+/* Post  */
+img{
+    width: 100%;
+    height: auto;
+}
