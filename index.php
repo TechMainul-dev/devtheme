@@ -54,6 +54,15 @@
                                 else: echo 'no post';
                             endif;
                         ?>
+                        <!-- Pagination function & Hook -->
+                        <div class="pagination">
+                            <?php the_posts_pagination(array(
+                                'screen_reader_text' => ' ',
+                                'prev_text' => '<',
+                                'next_text' => '>'
+                            )); ?>
+                        </div>
+
                     </section>
                 </div>
                 <!-- Sidebar -->
