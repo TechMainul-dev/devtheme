@@ -9,6 +9,7 @@ add_action('after_setup_theme', 'devtheme_setup');
 
 // Assets
  function devtheme_stylesheet() {
+     // https://getbootstrap.com
      wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css');
     //  wp_enqueue_style( $handle:string, $src:string, $deps:array, $ver:string|boolean|null, $media:string )
      wp_enqueue_style('devtheme_main_style', get_stylesheet_uri(  ), '', '1.0.0');
