@@ -44,3 +44,14 @@ img{
     width: 100%;
     height: auto;
 }
+/* Sidebar */
+.right-side{
+    padding: 25px 10px;
+    background: rgb(76, 82, 55);
+}
+.right-side h2{
+    color: gold;
+}
+.right-side ul li{
+    list-style: none;
+}

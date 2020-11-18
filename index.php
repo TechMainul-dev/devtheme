@@ -66,7 +66,23 @@
                     </section>
                 </div>
                 <!-- Sidebar -->
-                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <div class="right-side">
+                        <h2>Title</h2>
+                        <ul>
+                            <li>
+                                <a href="">One</a>
+                            </li>
+                            <li>
+                                <a href="">Two</a>
+                            </li>
+                            <li>
+                                <a href="">Three</a>
+                            </li>
+                        </ul>
+                        </h2>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

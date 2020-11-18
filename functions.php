@@ -15,3 +15,12 @@ add_action('after_setup_theme', 'devtheme_setup');
  }
 
  add_action('wp_enqueue_scripts', 'devtheme_stylesheet');
+
+//  Widget
+function devtheme_widgets() {
+    register_sidebar(array(
+        'name' => 'Right Sidebar',
+        'id' => 'right-sidebar'
+    ));
+}
+add_action('widgets_init', 'devtheme_widgets');
