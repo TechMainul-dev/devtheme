@@ -34,6 +34,7 @@
 
                         <div class="dev-article">
                             <h2><?php the_title(); ?></h2>
+                            <!-- Feature image -->
                             <?php 
                                 if(has_post_thumbnail()) {
                                     the_post_thumbnail("large");
