@@ -34,7 +34,11 @@
 
                         <div class="dev-article">
                             <h2><?php the_title(); ?></h2>
-                            <?php the_post_thumbnail(); ?>
+                            <?php 
+                                if(has_post_thumbnail()) {
+                                    the_post_thumbnail();
+                                }
+                            ?>
                             <p><?php the_content(); ?></p>
                         </div>
 
