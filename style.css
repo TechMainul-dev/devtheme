@@ -69,5 +69,7 @@ img{
 .menu ul li a:hover{
     text-decoration: none;
     color: greenyellow;
-    font-weight: bold;
+}
+.bottom-menu{
+    color: goldenrod;
 }

@@ -17,18 +17,9 @@
             <div class="content">
                 <h1><?php bloginfo('name'); ?></h1>
                 <p><?php bloginfo('description'); ?></p>
+                <!-- Top menu  -->
                 <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="">One</a>
-                        </li>
-                        <li>
-                            <a href="">Two</a>
-                        </li>
-                        <li>
-                            <a href="">Three</a>
-                        </li>
-                    </ul>
+                    <?php wp_nav_menu(array('theme_location' => 'topmenu')); ?>
                 </div>
             </div>
         </div>
@@ -98,6 +89,12 @@
                     </div> -->
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- Bottom menu -->
+    <div class="bottom-menu">
+        <div class="menu">
+            <?php wp_nav_menu(array('theme_location' => 'bottommenu')); ?>
         </div>
     </div>
 
