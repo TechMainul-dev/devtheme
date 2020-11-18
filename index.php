@@ -23,6 +23,7 @@
     <div class="dev-body">
         <div class="container">
             <div class="row">
+                <!-- Post -->
                 <div class="col-md-9">
                     <section class="post-section">
 
@@ -33,6 +34,7 @@
 
                         <div class="dev-article">
                             <h2><?php the_title(); ?></h2>
+                            <?php the_post_thumbnail(); ?>
                             <p><?php the_content(); ?></p>
                         </div>
 
@@ -43,6 +45,7 @@
                         ?>
                     </section>
                 </div>
+                <!-- Sidebar -->
                 <div class="col-md-3"></div>
             </div>
         </div>
