@@ -67,6 +67,8 @@
                 </div>
                 <!-- Sidebar -->
                 <div class="col-md-3">
+                    <?php dynamic_sidebar('right-sidebar'); ?>
+                    <!-- 
                     <div class="right-side">
                         <h2>Title</h2>
                         <ul>
@@ -80,8 +82,7 @@
                                 <a href="">Three</a>
                             </li>
                         </ul>
-                        </h2>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

@@ -16,11 +16,15 @@ add_action('after_setup_theme', 'devtheme_setup');
 
  add_action('wp_enqueue_scripts', 'devtheme_stylesheet');
 
-//  Widget
+//  Widget function | parameter | hook
 function devtheme_widgets() {
     register_sidebar(array(
         'name' => 'Right Sidebar',
-        'id' => 'right-sidebar'
+        'id' => 'right-sidebar',
+        'before_widget' => '<div class="right-side">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>', //if your add class for title then add with class
+        'after_title' => '</h2>'
     ));
 }
 add_action('widgets_init', 'devtheme_widgets');
