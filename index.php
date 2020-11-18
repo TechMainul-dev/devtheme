@@ -40,6 +40,12 @@
                                     the_post_thumbnail("large");
                                 }
                             ?>
+                            <!-- Date -->
+                            <div class="post-date">
+                                <em>
+                                    <?php echo get_the_date(); ?>
+                                    | By <?php the_author(); ?></em>
+                            </div>
                             <p><?php the_content(); ?></p>
                         </div>
 
