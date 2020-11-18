@@ -55,3 +55,19 @@ img{
 .right-side ul li{
     list-style: none;
 }
+/* Menu */
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.menu ul li a{
+    color: goldenrod;
+    padding: 10px 15px;
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bold;
+}

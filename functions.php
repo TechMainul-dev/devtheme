@@ -4,6 +4,13 @@ function devtheme_setup() {
     add_theme_support('title-tag');
     add_theme_support('custom-logo');
     add_theme_support('post-thumbnails');
+    register_nav_menus(
+        array(
+            'topmemu' => __('Top Menu', 'devtheme'),
+            'bottommemu' => __('Bottom Menu', 'devtheme')
+            
+        )
+    );
 }
 
 add_action('after_setup_theme', 'devtheme_setup');
