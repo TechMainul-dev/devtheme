@@ -28,10 +28,6 @@ Text Domain: devtheme
 .content{
     color: rgb(192, 59, 10);
 }
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
 .dev-article{
     padding: 20px 0;
 }

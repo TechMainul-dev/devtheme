@@ -20,27 +20,34 @@
             </div>
         </div>
     </header>
-    <section class="post-section">
+    <div class="dev-body">
         <div class="container">
-            <?php  
-            if (have_posts(  )):
-                while (have_posts(  )) : the_post(  );
-            ?>
+            <div class="row">
+                <div class="col-md-9">
+                    <section class="post-section">
 
-            <div class="dev-article">
-                <h2><?php the_title(); ?></h2>
-                <p><?php the_content(); ?></p>
+                        <?php  
+                            if (have_posts(  )):
+                                while (have_posts(  )) : the_post(  );
+                        ?>
+
+                        <div class="dev-article">
+                            <h2><?php the_title(); ?></h2>
+                            <p><?php the_content(); ?></p>
+                        </div>
+
+                        <?php
+                            endwhile;                        
+                                else: echo 'no post';
+                            endif;
+                        ?>
+                    </section>
+                </div>
+                <div class="col-md-3"></div>
             </div>
-
-            <?php
-                endwhile;
-            
-            else: echo 'no post';
-            endif;
-            ?>
-
         </div>
-    </section>
+    </div>
+
     <footer>
         <div class="container">
             <p>@copyright | 2020 | Mainul Hasan Khan</p>
