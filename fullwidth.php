@@ -1,11 +1,12 @@
+<?php 
+  // Template Name: Full Width
+ ?>
 <?php get_header(); ?>
 <div class="dev-body">
     <div class="container">
         <div class="row">
-            <!-- Sidebar -->
-            <?php get_sidebar(); ?>
             <!-- Post -->
-            <div class="col-md-9">
+            <div class="col-md-12">
                 <section class="post-section">
 
                     <?php  
@@ -27,6 +28,7 @@
                                 <?php echo get_the_date(); ?>
                                 | By <?php the_author(); ?></em>
                         </div>
+
                         <p><?php the_content(); ?></p>
                         <?php comments_template(); ?>
                     </div>
@@ -36,11 +38,8 @@
                                 else: echo 'no post';
                             endif;
                         ?>
-
-
                 </section>
             </div>
-
         </div>
     </div>
 </div>
