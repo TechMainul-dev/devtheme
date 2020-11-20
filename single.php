@@ -26,6 +26,7 @@
                                 | By <?php the_author(); ?></em>
                         </div>
                         <p><?php the_content(); ?></p>
+                        <?php comments_template(); ?>
                     </div>
 
                     <?php
