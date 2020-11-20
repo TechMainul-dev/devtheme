@@ -51,9 +51,4 @@
     </div>
 </div>
 <!-- Bottom menu -->
-<div class="bottom-menu">
-    <div class="menu">
-        <?php wp_nav_menu(array('theme_location' => 'bottommenu')); ?>
-    </div>
-</div>
 <?php get_footer(); ?>
