@@ -45,24 +45,7 @@
                 </section>
             </div>
             <!-- Sidebar -->
-            <div class="col-md-3">
-                <?php dynamic_sidebar('right-sidebar'); ?>
-                <!-- 
-                    <div class="right-side">
-                        <h2>Title</h2>
-                        <ul>
-                            <li>
-                                <a href="">One</a>
-                            </li>
-                            <li>
-                                <a href="">Two</a>
-                            </li>
-                            <li>
-                                <a href="">Three</a>
-                            </li>
-                        </ul>
-                    </div> -->
-            </div>
+            <?php get_sidebar(); ?>
         </div>
     </div>
 </div>
