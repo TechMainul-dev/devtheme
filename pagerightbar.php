@@ -1,8 +1,10 @@
+<?php 
+  // Template Name: Sidebar added
+ ?>
 <?php get_header(); ?>
 <div class="dev-body">
     <div class="container">
         <div class="row">
-
             <!-- Post -->
             <div class="col-md-9">
                 <section class="post-section">
@@ -35,8 +37,6 @@
                                 else: echo 'no post';
                             endif;
                         ?>
-
-
                 </section>
             </div>
             <!-- Sidebar -->
@@ -44,5 +44,4 @@
         </div>
     </div>
 </div>
-<!-- Bottom menu -->
 <?php get_footer(); ?>

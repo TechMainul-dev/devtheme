@@ -34,14 +34,13 @@
                     </div>
 
                     <?php
-                            endwhile;                        
-                                else: echo 'no post';
-                            endif;
+                        endwhile;                        
+                            else: echo 'no post';
+                        endif;
                         ?>
                 </section>
             </div>
         </div>
     </div>
 </div>
-<!-- Bottom menu -->
 <?php get_footer(); ?>
