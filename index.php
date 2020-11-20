@@ -1,4 +1,9 @@
 <?php get_header(); ?>
+<div class="container">
+    <div class="our-search-form">
+        <?php get_search_form(); ?>
+    </div>
+</div>
 <div class="dev-body">
     <div class="container">
         <div class="row">
