@@ -34,6 +34,8 @@
                             </em>
                         </div>
                         <p><?php the_content(); ?></p>
+                        <!--nextpage-->
+                        <!--added under text-->
                     </div>
 
                     <?php
