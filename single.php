@@ -25,7 +25,9 @@
                                 <?php echo get_the_date(); ?>
                                 | By <?php the_author(); ?></em>
                         </div>
-                        <p><?php the_content(); ?></p>
+                        <?php the_content(); 
+                                wp_link_pages();
+                            ?>
                         <?php comments_template(); ?>
                     </div>
 
