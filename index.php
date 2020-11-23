@@ -33,7 +33,8 @@
                                 <?php comments_popup_link('no comment', 'one comment', '% comments', 'comments', 'unavailable'); ?>
                             </em>
                         </div>
-                        <p><?php the_content(); ?></p>
+                        <?php devtheme_continue(40); ?>
+                        <a href="<?php the_permalink();?>">Continue Reading</a>
                         <!--nextpage-->
                         <!--added under text-->
                     </div>

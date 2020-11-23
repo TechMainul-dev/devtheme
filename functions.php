@@ -35,3 +35,11 @@ function devtheme_widgets() {
     ));
 }
 add_action('widgets_init', 'devtheme_widgets');
+
+//Read More
+
+function devtheme_continue($words){
+    $devtheme_article = explode(' ', the_content());
+    $devtheme_article_slice = array_slice($devtheme_article, 0, $words);
+    echo implode(' ', $devtheme_article_slice);
+}
